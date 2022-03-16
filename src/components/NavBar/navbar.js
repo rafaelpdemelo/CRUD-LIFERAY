@@ -4,10 +4,6 @@ import ClayNavigationBar from "@clayui/navigation-bar";
 
 export const NavBar = () => {
 
-	function Example(){
-		const [count, setCount] = useState(0);
-		
-	}
 
 	const btnStyle = {
 		padding: "5.5px 16px 5.5px 16px",
