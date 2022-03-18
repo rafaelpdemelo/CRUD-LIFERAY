@@ -15,8 +15,12 @@
 		"webpack-dev-server": "3.2.1"
 	},
 	"dependencies": {
+		"@clayui/button": "^3.40.0",
 		"@clayui/css": "^3.49.0",
+		"@clayui/form": "^3.49.0",
 		"@clayui/navigation-bar": "^3.49.0",
+		"@clayui/panel": "^3.49.0",
+		"@clayui/tabs": "^3.49.0",
 		"react": "16.8.6",
 		"react-dom": "16.8.6"
 	},

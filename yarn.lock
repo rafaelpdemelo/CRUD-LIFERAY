@@ -977,6 +977,16 @@
   resolved "https://registry.yarnpkg.com/@clayui/css/-/css-3.49.0.tgz#af7ce257e95cc0ed1b9dcf7b43a6ee2fe8a83297"
   integrity sha512-H6KjkH8xof7XQr5DnzIv87Q/yxdKIieK5cXJ2434HxJCj4ZWaq1jsVjFiaTr+PZkgEGlr9bc0n4fGPxWsCOSIg==
 
+"@clayui/form@^3.49.0":
+  version "3.49.0"
+  resolved "https://registry.yarnpkg.com/@clayui/form/-/form-3.49.0.tgz#65d1042a58589c135b259fd21394e6547833cbad"
+  integrity sha512-1D5nqemuMdS1ItjrrViB53WRxnAzE1mNKG+4FT55N3UIyazcJaTYOAkeQUTQINdv7OnY1jP37SSLofT2tCgRiQ==
+  dependencies:
+    "@clayui/button" "^3.40.0"
+    "@clayui/icon" "^3.40.0"
+    "@clayui/shared" "^3.49.0"
+    classnames "^2.2.6"
+
 "@clayui/icon@^3.40.0":
   version "3.40.0"
   resolved "https://registry.yarnpkg.com/@clayui/icon/-/icon-3.40.0.tgz#e00efd08f9becf4aecd046bef9496a26aa2f3318"
@@ -1013,6 +1023,17 @@
     react-transition-group "^4.4.1"
     warning "^4.0.3"
 
+"@clayui/panel@^3.49.0":
+  version "3.49.0"
+  resolved "https://registry.yarnpkg.com/@clayui/panel/-/panel-3.49.0.tgz#98362aae70c2e4296e1938ab737ae60b28583897"
+  integrity sha512-IzXuFKV9r8WeISKTJwkWk0W82LFPB0U/aLgbpV7czsGt2hOTadN9wisM2yf1YQZikwhnRWJWO4IBOnLGuXkVkQ==
+  dependencies:
+    "@clayui/button" "^3.40.0"
+    "@clayui/icon" "^3.40.0"
+    "@clayui/shared" "^3.49.0"
+    classnames "^2.2.6"
+    react-transition-group "^4.4.1"
+
 "@clayui/provider@^3.40.0":
   version "3.40.0"
   resolved "https://registry.yarnpkg.com/@clayui/provider/-/provider-3.40.0.tgz#a2d68aba76a62856c9bb02ead23037052c29f571"
@@ -1031,6 +1052,14 @@
     classnames "^2.2.6"
     dom-align "^1.12.2"
     warning "^4.0.3"
+
+"@clayui/tabs@^3.49.0":
+  version "3.49.0"
+  resolved "https://registry.yarnpkg.com/@clayui/tabs/-/tabs-3.49.0.tgz#79752a658ce251b0b27ae17f1649d510179ab530"
+  integrity sha512-lpByIGhcoQpTShETCuptAr9t+hK+FRTr8t5pWI8PCtwugmVzkAT+zrI1zQWp5uWJjahvMthcCtTIlnbsgbrSMA==
+  dependencies:
+    "@clayui/shared" "^3.49.0"
+    classnames "^2.2.6"
 
 "@jridgewell/resolve-uri@^3.0.3":
   version "3.0.5"
