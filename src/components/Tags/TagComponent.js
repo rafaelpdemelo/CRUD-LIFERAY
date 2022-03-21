@@ -50,7 +50,7 @@ export const TagComponent = () => {
       <ClayTabs.Content activeIndex={activeTabKeyValue} fade>
         <ClayTabs.TabPane aria-labelledby="tab-1">
           {
-            <ClayButton onClick={() => getFunction()} displayType="primary">
+            <ClayButton id="fetchButton" onClick={() => getFunction()} displayType="primary">
               GET
             </ClayButton>
           }
@@ -71,7 +71,7 @@ export const TagComponent = () => {
             ></ClayInput>
           }
           {
-            <ClayButton onClick={() => postFunction()} displayType="primary">
+            <ClayButton id="fetchButton" onClick={() => postFunction()} displayType="primary">
               POST
             </ClayButton>
           }
@@ -82,7 +82,7 @@ export const TagComponent = () => {
               placeholder="Delete Post"
               type="text"
             ></ClayInput>}
-            {<ClayButton onClick={() => deleteFunction()} displayType="primary">
+            {<ClayButton id="fetchButton" onClick={() => deleteFunction()} displayType="primary">
               DELETE
             </ClayButton>}
         </ClayTabs.TabPane>
@@ -92,7 +92,7 @@ export const TagComponent = () => {
               placeholder="ID POST"
               type="text"
             ></ClayInput>}
-            {<ClayButton onClick={() => getByIdFunction()} displayType="primary">
+            {<ClayButton id="fetchButton" onClick={() => getByIdFunction()} displayType="primary">
               GET BY ID
             </ClayButton>}
         </ClayTabs.TabPane>
