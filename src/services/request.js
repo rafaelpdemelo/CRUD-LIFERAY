@@ -1,4 +1,4 @@
-
+ 
 
 const siteId = Liferay.ThemeDisplay.getSiteGroupId();
 
@@ -36,7 +36,7 @@ export function postFunction() {
 
   return Liferay.Util.fetch(
     `/o/headless-delivery/v1.0/sites/${siteId}/blog-postings`,
-    request
+    request 
   ).then((res) => res.json())
   .then((data) => console.log(data));
 }
